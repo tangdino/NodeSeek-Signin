@@ -5,7 +5,7 @@ from curl_cffi import requests
 
 NS_RANDOM = os.environ.get("NS_RANDOM","true")
 NS_COOKIE = os.environ.get("NS_COOKIE","")
-COOKIE = os.environ.get("COOKIE", "session=2bf3abaf49cddd76651bd8f75d215185; smac=1739304779-W1E-a61pJn4wX7tQRlKEGoXhuwb-vnYmiU0ejSm9DM4; colorscheme=light; hmti_=1740768092-Pra9WkDVN7T6HKxG01WlIVdr-_ai1bl4E_Av7dIMhwAv; cf_clearance=AmkzmTXY279NUihh3Al1XGvfJrzI5LYuBb9UlpxX3lA-1740840627-1.2.1.1-wACd92My7JbbgIPWCVB46WNrpR0r12hqOSN4Ut1OJt6FjegkuAPOP3emm4rDcewR3BuLTyZW3C5y8O5mMMJhhmEehqxpHniP.nUwlfQLLdYhR5m0XJK91NwmKfrMMNwNKFVYrkZ24Rz2AAN_H_CVrIYuoHfZ4Bjgm4Z4vrIBZ64VvdHmUBd.0_vLvxZY2FJOd08KbjbdfyFlrNN1r0mndBcvsYNl1DZEKvMsD5YVfRWLrjnbaqsYS.65NtaTBkioirH7GblTD0B4h_lZSQtJw7QDUripJROfyqDwznMifWPNYFbyHf2lSxkcDszFbYc78V3YftvoC2_cl_jIRJeWvtAUqHMpeFSbPUOfU_KpCs.YwbmAFaj5jQlWbb4uitc_mhXwALeH3AuBh0cgzl_byL_9pebzttW078kx6cCCBpA")
+COOKIE = os.environ.get("COOKIE", "")
 COOKIE_ENV = NS_COOKIE or COOKIE
 
 pushplus_token = os.environ.get("PUSHPLUS_TOKEN")
