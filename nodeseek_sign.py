@@ -4,7 +4,7 @@ import sys
 from curl_cffi import requests
 
 NS_RANDOM = os.environ.get("NS_RANDOM","true")
-NS_COOKIE = os.environ.get("NS_COOKIE","")
+NS_COOKIE = os.environ.get("NS_COOKIE", "")
 COOKIE = os.environ.get("COOKIE", "")
 COOKIE_ENV = NS_COOKIE or COOKIE
 PROXY = os.environ.get("PROXY", "")  # 代理地址，格式如：http://username:password@127.0.0.1:7890 或 http://127.0.0.1:7890
